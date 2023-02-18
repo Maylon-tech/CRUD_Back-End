@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <%- include('partials/head.ejs')%>
+</head>
+<body>
+    <%- include('partials/header.ejs')%>
+    <h1 class="title"><%= title %></h1>
+
+    <ul class="user-list">
+        <% users.forEach((user) => { %>
+            <li>
+               <span>Nome: <%= user.name %> </span> 
+               <span>E-Mail: <%= user.email %></span> 
+                <span>idade: <%= user.age %></span>
+                <a href="/edit?id=<%= user._id%>">editar</a>
+                <a class="remove" href="/remove/<%= user._id%>">remove</a>
+            </li>
+        <% }) %>
+    </ul>
+
+
+    <%- include('partials/foot.ejs')%>
+</body>
+</html>

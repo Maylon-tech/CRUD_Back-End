@@ -1,1 +1,0 @@
-alert('OK rodando js vanilla')

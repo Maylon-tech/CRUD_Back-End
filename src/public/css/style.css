@@ -12,3 +12,153 @@ body {
     margin: 0 auto;
     color: #fff;
 }
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.home-container h1 {
+    font-size: 3rem;
+    color: #999;
+}
+.title {
+    padding: 2rem 0;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.header .logo a {
+    font-size: 1.7rem;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header .menu li {
+    margin: 0 1rem;
+}
+.header .menu li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.user-list  {
+    width: 80%;
+    height: 100%;
+    background-color: rgba(55, 62, 101, 0.872);
+    color: #222;
+    list-style: none;
+    margin: auto;
+}
+.user-list li {
+    margin: .5rem 0;
+    padding: 10px;
+    border-bottom: 2px solid #e0d9d9;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+}
+.user-list li a {
+    color: #eee;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: .4rem .8rem;
+    background-color: rgb(62, 111, 33);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+form {
+    padding: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+form > div {
+    max-width: 350px;
+    margin: .6rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: .7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: .5rem 0;
+}
+
+form button {
+    padding: 1rem 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: brown;
+    color: #fff;
+    font-size: 1.1rem;
+    width: 150px;
+    transition: .4s;
+    margin-top: 1rem;
+}
+form button:hover {
+    background-color: crimson;
+}
+
+
+.msg {
+    padding: 1rem;
+    margin-top: 1.3rem;
+    color: #fff;
+    background-color: rgb(126, 88, 161);
+    border: 3px solid #222;
+    border-radius: 3px;
+}
+
+
+.edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.edit-form button {
+    background-color: #d2cdcde8;
+    color: #222;
+}
+
+.user-list .remove {
+    color: #eee;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: .4rem .8rem;
+    background-color: rgb(136, 19, 58);
+    border-radius: 4px;
+    cursor: pointer;
+}
